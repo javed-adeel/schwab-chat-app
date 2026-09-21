@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>News Chat</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>News Chat</h1>
+      <p class="sub" id="status">Loading…</p>
+    </div>
+    <button type="button" id="new-chat" class="ghost">New chat</button>
+  </header>
+
+  <main id="log" class="log" aria-live="polite" aria-label="Conversation"></main>
+
+  <section id="suggestions" class="suggestions" aria-label="Suggested questions"></section>
+
+  <footer class="composer">
+    <textarea id="input" rows="1" maxlength="2000"
+      placeholder="Ask about recent news for AAPL, MSFT, AMZN, NFLX, NVDA, INTC or IBM…"
+      aria-label="Your question"></textarea>
+    <button type="button" id="send">Send</button>
+  </footer>
+  <p class="note">Summaries of news articles only. Not investment advice.</p>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

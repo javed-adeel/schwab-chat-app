@@ -1,0 +1,449 @@
+{
+ "description": "Hand-written retrieval golden set. relevant_titles are case-insensitive title prefixes that must each resolve to exactly one article.",
+ "cases": [
+  {
+   "id": "intel-price-targets",
+   "category": "company",
+   "question": "What price target changes were reported for Intel?",
+   "relevant_titles": [
+    "Evercore ISI Adjusts Price Target on Intel",
+    "Cantor Fitzgerald Adjusts Price Target on Intel",
+    "Citic Securities Downgrades Intel"
+   ]
+  },
+  {
+   "id": "intel-breakup",
+   "category": "company",
+   "question": "What is the news about Intel possibly being split up?",
+   "relevant_titles": [
+    "Intel stock surges on report of Broadcom",
+    "Intel could get split up by its rivals",
+    "Broadcom, TSMC consider possible deals with Intel",
+    "Intel Breakup Mulled",
+    "Intel stock surges 10% because TSMC"
+   ]
+  },
+  {
+   "id": "intel-broadcom-tsmc",
+   "category": "company",
+   "question": "How did Intel stock react to the Broadcom and TSMC report?",
+   "relevant_titles": [
+    "Intel stock surges on report of Broadcom",
+    "Intel stock surges 10% because TSMC",
+    "Intel Shares Jump After Report",
+    "Broadcom, TSMC consider possible deals with Intel"
+   ]
+  },
+  {
+   "id": "dbs-nvidia",
+   "category": "company",
+   "question": "What did DBS Bank do with its Nvidia price target?",
+   "relevant_titles": [
+    "DBS Bank Adjusts NVIDIA Price Target"
+   ]
+  },
+  {
+   "id": "nvidia-bofa",
+   "category": "company",
+   "question": "What did BofA say about Nvidia's earnings?",
+   "relevant_titles": [
+    "Nvidia Set to Beat Earnings, But Near-Term",
+    "Nvidia Set to Beat Q4 Earnings, But China"
+   ]
+  },
+  {
+   "id": "nvidia-china-risk",
+   "category": "company",
+   "question": "What China risks does Nvidia face ahead of earnings?",
+   "relevant_titles": [
+    "Nvidia Set to Beat Q4 Earnings, But China"
+   ]
+  },
+  {
+   "id": "englander",
+   "category": "company",
+   "question": "What did Israel Englander do with his Nvidia stake?",
+   "relevant_titles": [
+    "Billionaire Israel Englander Sells Nvidia"
+   ]
+  },
+  {
+   "id": "stargate-nvidia",
+   "category": "company",
+   "question": "How did the Stargate announcement affect Nvidia?",
+   "relevant_titles": [
+    "Nvidia Soars As Stargate"
+   ]
+  },
+  {
+   "id": "apple-china-ai",
+   "category": "company",
+   "question": "How is Apple expanding its AI features in China?",
+   "relevant_titles": [
+    "Apple Partners With Alibaba"
+   ]
+  },
+  {
+   "id": "iphone-se4-ubs",
+   "category": "company",
+   "question": "What does UBS expect from the iPhone SE4 launch?",
+   "relevant_titles": [
+    "Apple's Launch of iPhone SE4"
+   ]
+  },
+  {
+   "id": "cramer-netflix",
+   "category": "company",
+   "question": "What did Jim Cramer say about Netflix?",
+   "relevant_titles": [
+    "Jim Cramer Says Netflix"
+   ]
+  },
+  {
+   "id": "cramer-amazon",
+   "category": "company",
+   "question": "What did Jim Cramer say about Amazon?",
+   "relevant_titles": [
+    "Jim Cramer on Amazon.com"
+   ]
+  },
+  {
+   "id": "amazon-inspire",
+   "category": "company",
+   "question": "What happened with Amazon Inspire?",
+   "relevant_titles": [
+    "Market Chatter: Amazon Shuts Down Inspire",
+    "Update: Market Chatter: Amazon Shuts Down Inspire",
+    "Amazon Inspire, Super Micro soars"
+   ]
+  },
+  {
+   "id": "amazon-union",
+   "category": "company",
+   "question": "Did Amazon workers in North Carolina vote to unionize?",
+   "relevant_titles": [
+    "North Carolina Amazon Employees Vote Against"
+   ]
+  },
+  {
+   "id": "aws-healthcare",
+   "category": "company",
+   "question": "What is AWS doing in healthcare?",
+   "relevant_titles": [
+    "AWS expands AI in healthcare"
+   ]
+  },
+  {
+   "id": "netflix-appletv",
+   "category": "company",
+   "question": "Is Netflix supporting the Apple TV app?",
+   "relevant_titles": [
+    "Netflix to finally support Apple TV app"
+   ]
+  },
+  {
+   "id": "roku",
+   "category": "market",
+   "question": "How did Roku stock perform?",
+   "relevant_titles": [
+    "Roku Stock on Pace"
+   ]
+  },
+  {
+   "id": "ibm-penn-state",
+   "category": "company",
+   "question": "What is IBM doing with Penn State?",
+   "relevant_titles": [
+    "Penn State Taps IBM"
+   ]
+  },
+  {
+   "id": "msft-swe-lancer",
+   "category": "company",
+   "question": "What is the SWE-Lancer benchmark from OpenAI?",
+   "relevant_titles": [
+    "Microsoft-Backed OpenAI Introduces SWE-Lancer"
+   ]
+  },
+  {
+   "id": "msft-q4-return",
+   "category": "company",
+   "question": "Why did Microsoft stock return 13% in Q4?",
+   "relevant_titles": [
+    "Here’s Why Microsoft (MSFT) Stock Returned"
+   ]
+  },
+  {
+   "id": "msft-intrinsic",
+   "category": "company",
+   "question": "What is Microsoft's intrinsic value according to the articles?",
+   "relevant_titles": [
+    "Microsoft Corp: An Exploration into Its Intrinsic Value"
+   ]
+  },
+  {
+   "id": "meta-streak",
+   "category": "market",
+   "question": "How did Meta's stock streak end?",
+   "relevant_titles": [
+    "Meta's stock falls, putting 20-session streak"
+   ]
+  },
+  {
+   "id": "amc-earnings",
+   "category": "market",
+   "question": "What happened with AMC Networks earnings in Q4 2024?",
+   "relevant_titles": [
+    "AMC Networks Inc (AMCX) Q4 2024",
+    "Q4 2024 AMC Networks Inc Earnings Call"
+   ]
+  },
+  {
+   "id": "crushed-expectations",
+   "category": "market",
+   "question": "Which companies crushed quarterly expectations?",
+   "relevant_titles": [
+    "These 3 Companies Crushed Quarterly Expectations"
+   ]
+  },
+  {
+   "id": "buffett",
+   "category": "market",
+   "question": "What stocks is Warren Buffett buying?",
+   "relevant_titles": [
+    "Why Warren Buffett keeps buying Occidental",
+    "Watch These Constellation Brands Levels",
+    "Warren Buffett Winner Soars"
+   ]
+  },
+  {
+   "id": "quantum",
+   "category": "market",
+   "question": "What is happening with quantum computing stocks?",
+   "relevant_titles": [
+    "Prediction: These 2 Quantum Computing Stocks",
+    "Quantum Computing Stocks: China Claims"
+   ]
+  },
+  {
+   "id": "cmp-nvda-intc",
+   "category": "comparison",
+   "question": "Compare Nvidia and Intel",
+   "must_cover_tickers": [
+    "NVDA",
+    "INTC"
+   ]
+  },
+  {
+   "id": "cmp-aapl-msft",
+   "category": "comparison",
+   "question": "How do Apple and Microsoft compare on AI?",
+   "must_cover_tickers": [
+    "AAPL",
+    "MSFT"
+   ]
+  },
+  {
+   "id": "cmp-nflx-amzn",
+   "category": "comparison",
+   "question": "Netflix versus Amazon: what do the articles say about streaming and live sports?",
+   "must_cover_tickers": [
+    "NFLX",
+    "AMZN"
+   ],
+   "relevant_titles": [
+    "Why Netflix and Amazon will dominate live sports"
+   ]
+  },
+  {
+   "id": "follow-amazon",
+   "category": "follow_up",
+   "question": "What about Amazon?",
+   "history": [
+    {
+     "role": "user",
+     "content": "What did Jim Cramer say about Netflix?"
+    },
+    {
+     "role": "assistant",
+     "content": "(earlier answer)"
+    }
+   ],
+   "relevant_titles": [
+    "Jim Cramer on Amazon.com"
+   ]
+  },
+  {
+   "id": "follow-its-price-target",
+   "category": "follow_up",
+   "question": "What are analysts saying about its price target?",
+   "history": [
+    {
+     "role": "user",
+     "content": "Tell me about Intel's possible breakup"
+    },
+    {
+     "role": "assistant",
+     "content": "(earlier answer)"
+    }
+   ],
+   "relevant_titles": [
+    "Evercore ISI Adjusts Price Target on Intel",
+    "Cantor Fitzgerald Adjusts Price Target on Intel",
+    "Citic Securities Downgrades Intel"
+   ]
+  },
+  {
+   "id": "follow-and-for-intel",
+   "category": "follow_up",
+   "question": "And for Intel?",
+   "history": [
+    {
+     "role": "user",
+     "content": "What did DBS Bank do with its Nvidia price target?"
+    },
+    {
+     "role": "assistant",
+     "content": "(earlier answer)"
+    }
+   ],
+   "relevant_titles": [
+    "Evercore ISI Adjusts Price Target on Intel",
+    "Cantor Fitzgerald Adjusts Price Target on Intel",
+    "Citic Securities Downgrades Intel"
+   ]
+  },
+  {
+   "id": "para-chipmaker-split",
+   "category": "paraphrase",
+   "question": "Which chipmaker could be broken apart by its rivals?",
+   "relevant_titles": [
+    "Intel stock surges on report of Broadcom",
+    "Intel could get split up by its rivals",
+    "Broadcom, TSMC consider possible deals with Intel",
+    "Intel Breakup Mulled",
+    "Intel stock surges 10% because TSMC"
+   ]
+  },
+  {
+   "id": "para-labor-org",
+   "category": "paraphrase",
+   "question": "Did Amazon warehouse staff in the South reject joining a labor organization?",
+   "relevant_titles": [
+    "North Carolina Amazon Employees Vote Against"
+   ]
+  },
+  {
+   "id": "para-shopping-feed",
+   "category": "paraphrase",
+   "question": "Which company shut down a shopping feed inside its app?",
+   "relevant_titles": [
+    "Market Chatter: Amazon Shuts Down Inspire",
+    "Update: Market Chatter: Amazon Shuts Down Inspire",
+    "Amazon Inspire, Super Micro soars"
+   ]
+  },
+  {
+   "id": "para-chinese-partners",
+   "category": "paraphrase",
+   "question": "Which iPhone maker is teaming up with Chinese tech firms on artificial intelligence?",
+   "relevant_titles": [
+    "Apple Partners With Alibaba"
+   ]
+  },
+  {
+   "id": "para-fund-manager",
+   "category": "paraphrase",
+   "question": "Which billionaire fund manager dumped shares of the AI chip leader?",
+   "relevant_titles": [
+    "Billionaire Israel Englander Sells Nvidia"
+   ]
+  },
+  {
+   "id": "para-set-top-box",
+   "category": "paraphrase",
+   "question": "Which streaming giant is finally coming to Apple's set-top box?",
+   "relevant_titles": [
+    "Netflix to finally support Apple TV app"
+   ]
+  },
+  {
+   "id": "para-university",
+   "category": "paraphrase",
+   "question": "Which university is building an AI virtual assistant with a big tech firm?",
+   "relevant_titles": [
+    "Penn State Taps IBM"
+   ]
+  },
+  {
+   "id": "para-freelance-coding",
+   "category": "paraphrase",
+   "question": "Which OpenAI benchmark measures freelance software engineering tasks?",
+   "relevant_titles": [
+    "Microsoft-Backed OpenAI Introduces SWE-Lancer"
+   ]
+  },
+  {
+   "id": "para-downgrade",
+   "category": "paraphrase",
+   "question": "Did any brokerage cut its rating on Intel to hold?",
+   "relevant_titles": [
+    "Citic Securities Downgrades Intel"
+   ]
+  },
+  {
+   "id": "para-cash-levels",
+   "category": "paraphrase",
+   "question": "What is Wall Street saying about how much cash investors are holding?",
+   "relevant_titles": [
+    "Wall Street bullish as cash levels drop to 15-year low"
+   ]
+  },
+  {
+   "id": "para-winning-run",
+   "category": "paraphrase",
+   "question": "Which social media company's shares stopped a long winning run?",
+   "relevant_titles": [
+    "Meta's stock falls, putting 20-session streak"
+   ]
+  },
+  {
+   "id": "para-graphics-target",
+   "category": "paraphrase",
+   "question": "Which bank lowered its target on the graphics chip giant?",
+   "relevant_titles": [
+    "DBS Bank Adjusts NVIDIA Price Target"
+   ]
+  },
+  {
+   "id": "oos-weather",
+   "category": "out_of_scope",
+   "question": "What is the weather in Toronto today?",
+   "expect_answered": false
+  },
+  {
+   "id": "oos-superbowl",
+   "category": "out_of_scope",
+   "question": "Who won the Super Bowl?",
+   "expect_answered": false
+  },
+  {
+   "id": "oos-bitcoin",
+   "category": "out_of_scope",
+   "question": "What is the current price of Bitcoin?",
+   "expect_answered": false
+  },
+  {
+   "id": "oos-poem",
+   "category": "out_of_scope",
+   "question": "Write me a poem about the ocean",
+   "expect_answered": false
+  },
+  {
+   "id": "oos-greeting",
+   "category": "out_of_scope",
+   "question": "hi",
+   "expect_answered": false
+  }
+ ]
+}
